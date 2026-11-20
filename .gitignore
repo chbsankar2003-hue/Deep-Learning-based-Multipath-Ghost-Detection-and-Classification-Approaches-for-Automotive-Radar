@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.conda/
+.env
+.env.*
+!.env.example
+
+# Datasets and generated data (keep the university dataset outside Git)
+data/
+datasets/
+**/data/
+**/datasets/
+*.bin
+*.pcd
+*.bag
+*.db3
+
+# Training outputs and checkpoints
+outputs/
+runs/
+logs/
+wandb/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
